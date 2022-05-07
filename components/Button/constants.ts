@@ -1,0 +1,73 @@
+export const COMMON_CLASSES = ['whitespace-nowrap']
+
+export const COLORS = {
+  'disabled-text': ['text-disabled-dark'],
+  'disabled-filled': ['text-disabled-dark', 'bg-disabled'],
+  'disabled-outlined': ['text-disabled-light', 'bg-white', 'border', 'border-disabled-light'],
+  'primary-filled': ['text-white', 'bg-primary', 'hover:bg-primary-light'],
+  'primary-outlined': [
+    'text-primary',
+    'bg-white',
+    'border',
+    'border-primary',
+    'hover:border-primary-light',
+    'hover:text-light',
+  ],
+  'primary-text': ['text-primary', 'hover:text-primary-light'],
+  'secondary-filled': ['text-white', 'bg-secondary', 'hover:bg-secondary-light'],
+  'secondary-outlined': [
+    'text-secondary',
+    'bg-white',
+    'border',
+    'border-secondary',
+    'hover:border-secondary-light',
+    'hover:text-light',
+  ],
+  'secondary-text': ['text-secondary', 'hover:text-secondary-light'],
+  'success-filled': ['text-white', 'bg-success', 'hover:bg-success-light'],
+  'success-outlined': [
+    'text-success',
+    'bg-white',
+    'border',
+    'border-success',
+    'hover:border-success-light',
+    'hover:text-light',
+  ],
+  'success-text': ['text-success', 'hover:text-success-light'],
+  'error-filled': ['text-white', 'bg-error', 'hover:bg-error-light'],
+  'error-outlined': [
+    'text-error',
+    'bg-white',
+    'border',
+    'border-error',
+    'hover:border-error-light',
+    'hover:text-light',
+  ],
+  'error-text': ['text-error', 'hover:text-error-light'],
+  'warning-filled': ['text-white', 'bg-warning', 'hover:bg-warning-light'],
+  'warning-outlined': [
+    'text-warning',
+    'bg-white',
+    'border',
+    'border-warning',
+    'hover:border-warning-light',
+    'hover:text-light',
+  ],
+  'warning-text': ['text-warning', 'hover:text-warning-light'],
+  'danger-filled': ['text-white', 'bg-danger', 'hover:bg-danger-light'],
+  'danger-outlined': [
+    'text-danger',
+    'bg-white',
+    'border',
+    'border-danger',
+    'hover:border-danger-light',
+    'hover:text-light',
+  ],
+  'danger-text': ['text-danger', 'hover:text-danger-light'],
+}
+
+export const SIZES = {
+  large: ['min-w-24', 'h-12', 'px-4', 'py-2', 'text-lg', 'rounded-3xl'],
+  medium: ['min-w-20', 'h-8', 'px-4', 'py-1', 'text-sm', 'rounded-2xl'],
+  small: ['min-w-14', 'h-6', 'px-2', 'py-1', 'text-xs', 'rounded-xl'],
+}

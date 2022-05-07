@@ -1,0 +1,48 @@
+---
+name: Button
+route: /button
+---
+
+import { Playground } from 'docz'
+import Button from '.'
+
+# Button
+
+## Variants
+<Playground>
+  <div className="flex flex-col gap-2">
+    <h2 className="font-medium text-2xl">Variants</h2>
+    <div className="flex gap-2 p-1">
+    <Button text="Disabled (Filled)" variant="filled" disabled />
+    <Button text="Disabled (Outlined)" variant="outlined" disabled />
+    <Button text="Disabled (Text)" variant="text" disabled />
+    </div>
+
+    <div className="flex gap-2 p-1">
+    <Button text="Primary (Filled)" variant="filled" intent="primary" />
+    <Button text="Secondary (Filled)" variant="filled" intent="secondary" />
+    <Button text="Success (Filled)" variant="filled" intent="success" />
+    <Button text="Error (Filled)" variant="filled" intent="error" />
+    <Button text="Danger (Filled)" variant="filled" intent="danger" />
+    <Button text="Warning (Filled)" variant="filled" intent="warning" />
+    </div>
+
+    <div className="flex gap-2 p-1">
+    <Button text="Primary (Outlined)" variant="outlined" intent="primary" />
+    <Button text="Secondary (Outlined)" variant="outlined" intent="secondary" />
+    <Button text="Success (Outlined)" variant="outlined" intent="success" />
+    <Button text="Error (Outlined)" variant="outlined" intent="error" />
+    <Button text="Danger (Outlined)" variant="outlined" intent="danger" />
+    <Button text="Warning (Outlined)" variant="outlined" intent="warning" />
+    </div>
+
+    <div className="flex gap-2 p-1">
+    <Button text="Primary (Text)" variant="text" intent="primary" />
+    <Button text="Secondary (Text)" variant="text" intent="secondary" />
+    <Button text="Success (Text)" variant="text" intent="success" />
+    <Button text="Error (Text)" variant="text" intent="error" />
+    <Button text="Danger (Text)" variant="text" intent="danger" />
+    <Button text="Warning (Text)" variant="text" intent="warning" />
+    </div>
+  </div>
+</Playground>

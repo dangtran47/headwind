@@ -4,13 +4,13 @@ export default () => (
   <div className="flex flex-col gap-3 p-5">
     <div className="flex flex-col gap-2">
       <h2 className="font-medium text-2xl">Variants</h2>
-      <div className="flex gap-2 p-1">
+      <div className="flex flex-wrap gap-2 p-1">
         <Button text="Disabled (Filled)" variant="filled" disabled />
         <Button text="Disabled (Outlined)" variant="outlined" disabled />
         <Button text="Disabled (Text)" variant="text" disabled />
       </div>
 
-      <div className="flex gap-2 p-1">
+      <div className="flex flex-wrap gap-2 p-1">
         <Button text="Primary (Filled)" variant="filled" intent="primary" />
         <Button text="Secondary (Filled)" variant="filled" intent="secondary" />
         <Button text="Success (Filled)" variant="filled" intent="success" />
@@ -19,7 +19,7 @@ export default () => (
         <Button text="Warning (Filled)" variant="filled" intent="warning" />
       </div>
 
-      <div className="flex gap-2 p-1">
+      <div className="flex flex-wrap gap-2 p-1">
         <Button text="Primary (Outlined)" variant="outlined" intent="primary" />
         <Button text="Secondary (Outlined)" variant="outlined" intent="secondary" />
         <Button text="Success (Outlined)" variant="outlined" intent="success" />
@@ -28,7 +28,7 @@ export default () => (
         <Button text="Warning (Outlined)" variant="outlined" intent="warning" />
       </div>
 
-      <div className="flex gap-2 p-1">
+      <div className="flex flex-wrap gap-2 p-1">
         <Button text="Primary (Text)" variant="text" intent="primary" />
         <Button text="Secondary (Text)" variant="text" intent="secondary" />
         <Button text="Success (Text)" variant="text" intent="success" />
@@ -39,22 +39,34 @@ export default () => (
     </div>
 
     <div className="flex flex-col gap-2">
+      <h2 className="font-medium text-2xl">Button.Link</h2>
+      <div className="flex flex-wrap gap-2 p-1">
+        <Button.Link text="Primary (Link)" href="#" intent="primary" />
+        <Button.Link text="Secondary (Link)" href="#" intent="secondary" />
+        <Button.Link text="Success (Link)" href="#" intent="success" />
+        <Button.Link text="Error (Link)" href="#" intent="error" />
+        <Button.Link text="Danger (Link)" href="#" intent="danger" />
+        <Button.Link text="Warning (Link)" href="#" intent="warning" />
+      </div>
+    </div>
+
+    <div className="flex flex-col gap-2">
       <h2 className="font-medium text-2xl">Sizes</h2>
-      <div className="flex gap-2 p-1">
+      <div className="flex flex-wrap gap-2 p-1">
         <Button text="small" variant="filled" intent="primary" size="small" />
         <Button text="small" variant="filled" intent="error" size="small" />
         <Button text="small" variant="outlined" intent="primary" size="small" />
         <Button text="small" variant="outlined" intent="error" size="small" />
       </div>
 
-      <div className="flex gap-2 p-1">
+      <div className="flex flex-wrap gap-2 p-1">
         <Button text="medium" variant="filled" intent="primary" size="medium" />
         <Button text="medium" variant="filled" intent="error" size="medium" />
         <Button text="medium" variant="outlined" intent="primary" size="medium" />
         <Button text="medium" variant="outlined" intent="error" size="medium" />
       </div>
 
-      <div className="flex gap-2 p-1">
+      <div className="flex flex-wrap gap-2 p-1">
         <Button text="large" variant="filled" intent="primary" size="large" />
         <Button text="large" variant="filled" intent="error" size="large" />
         <Button text="large" variant="outlined" intent="primary" size="large" />
@@ -64,7 +76,7 @@ export default () => (
 
     <div className="flex flex-col gap-2">
       <h2 className="font-medium text-2xl">Loading</h2>
-      <div className="flex gap-2 p-1">
+      <div className="flex flex-wrap gap-2 p-1">
         <Button text="Primary" intent="primary" loading />
         <Button text="Error" intent="error" loading />
         <Button text="Primary (Outlined)" variant="outlined" intent="primary" loading />

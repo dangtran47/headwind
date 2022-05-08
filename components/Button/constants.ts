@@ -14,6 +14,7 @@ export const COLORS = {
     'hover:text-light',
   ],
   'primary-text': ['text-primary', 'hover:text-primary-light'],
+  'primary-link': ['text-primary', 'hover:text-primary-light', 'hover:underline'],
   'secondary-filled': ['text-white', 'bg-secondary', 'hover:bg-secondary-light'],
   'secondary-outlined': [
     'text-secondary',
@@ -24,6 +25,7 @@ export const COLORS = {
     'hover:text-light',
   ],
   'secondary-text': ['text-secondary', 'hover:text-secondary-light'],
+  'secondary-link': ['text-secondary', 'hover:text-secondary-light', 'hover:underline'],
   'success-filled': ['text-white', 'bg-success', 'hover:bg-success-light'],
   'success-outlined': [
     'text-success',
@@ -34,6 +36,7 @@ export const COLORS = {
     'hover:text-light',
   ],
   'success-text': ['text-success', 'hover:text-success-light'],
+  'success-link': ['text-success', 'hover:text-success-light', 'hover:underline'],
   'error-filled': ['text-white', 'bg-error', 'hover:bg-error-light'],
   'error-outlined': [
     'text-error',
@@ -44,6 +47,7 @@ export const COLORS = {
     'hover:text-light',
   ],
   'error-text': ['text-error', 'hover:text-error-light'],
+  'error-link': ['text-error', 'hover:text-error-light', 'hover:underline'],
   'warning-filled': ['text-white', 'bg-warning', 'hover:bg-warning-light'],
   'warning-outlined': [
     'text-warning',
@@ -54,6 +58,7 @@ export const COLORS = {
     'hover:text-light',
   ],
   'warning-text': ['text-warning', 'hover:text-warning-light'],
+  'warning-link': ['text-warning', 'hover:text-warning-light', 'hover:underline'],
   'danger-filled': ['text-white', 'bg-danger', 'hover:bg-danger-light'],
   'danger-outlined': [
     'text-danger',
@@ -64,6 +69,7 @@ export const COLORS = {
     'hover:text-light',
   ],
   'danger-text': ['text-danger', 'hover:text-danger-light'],
+  'danger-link': ['text-danger', 'hover:text-danger-light', 'hover:underline'],
 }
 
 export const SIZES = {

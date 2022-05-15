@@ -10,4 +10,5 @@ export type InputProps = {
   required?: boolean
   name?: string
   id?: string
+  type?: 'text' | 'password' | 'email'
 }

@@ -12,7 +12,7 @@ import { SIZES, COLORS, COMMON_CLASSES } from './constants'
 const getColors = ({ disabled, intent, variant }: ButtonStyles) =>
   getOr([], `${disabled ? 'disabled' : intent}-${variant}`, COLORS)
 
-const getClassStyles = (styles: ButtonStyles) => {
+export const getClassStyles = (styles: ButtonStyles) => {
   return reduce(
     (classNames: string[], e: string[]) => concat(classNames, e),
     []

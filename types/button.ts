@@ -7,7 +7,6 @@ export type ButtonSize = 'small' | 'medium' | 'large'
 export type ButtonStyles = {
   intent: ButtonIntent
   variant: ButtonVariant
-  loading: boolean
   disabled: boolean
   size: ButtonSize
 }
@@ -15,6 +14,7 @@ export type ButtonStyles = {
 export type ButtonProps = {
   text: string
   onClick?: () => void
+  loading?: boolean
 } & Partial<ButtonStyles>
 
 export type ButtonLinkProps = { href: string } & Omit<ButtonProps, 'onClick' & 'variant'>

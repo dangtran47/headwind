@@ -13,6 +13,7 @@ const Input: React.FC<InputProps> = ({
   label = '',
   textAlign = 'left',
   required = 'true',
+  type = 'text',
 }) => {
   const handllOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (onChange) onChange(e.target.value)
@@ -32,6 +33,7 @@ const Input: React.FC<InputProps> = ({
         disabled={disabled}
         id={id}
         name={name}
+        type={type}
         className={clsx(
           'p-1',
           'border-2',

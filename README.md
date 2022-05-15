@@ -1,4 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## POW
+Button (/buttons)
+![image](https://user-images.githubusercontent.com/49431747/168467863-c2b46536-b964-4bab-8012-07b05300b3ea.png)
+
+Input (/inputs)
+![image](https://user-images.githubusercontent.com/49431747/168467963-d04b186b-c9a5-4720-aa4e-af5611573a05.png)
 
 ## Getting Started
 
